@@ -1,0 +1,97 @@
+============================ USUARIOS ============================
+
+insert into usuario ( nombre, apellido, dpi, correo, contrasenia, direccion ) values ('Usuario', 'De prueba', '1234567891234', 'correo@correo.com', '123', 'Casa');
+
+============================ METODOS DE PAGO ============================
+
+insert into metodo_pago (nombre) values('Efectivo');
+insert into metodo_pago (nombre) values('Tarjeta');
+
+
+============================ CATEGORIAS ============================
+
+
+insert into categoria (nombre) values('Telefonos');
+insert into categoria (nombre) values('Televisiones');
+insert into categoria (nombre) values('Electrodomesticos');
+insert into categoria (nombre) values('Consolas');
+
+
+
+============================ CATEGORIAS VARIADAS ============================
+
+
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Radish - Black, Winter, Organic', 'scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula', 1819.24, 'http://dummyimage.com/336x376.png/dddddd/000000', 26, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cardamon Seed / Pod', 'praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia', 1498.43, 'http://dummyimage.com/452x478.png/dddddd/000000', 92, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Sausage - Meat', 'lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in', 1671.78, 'http://dummyimage.com/354x383.png/dddddd/000000', 70, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Baking Powder', 'amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis', 3123.58, 'http://dummyimage.com/309x399.png/cc0000/ffffff', 6, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cinnamon Rolls', 'rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi', 1826.99, 'http://dummyimage.com/468x442.png/cc0000/ffffff', 11, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cheese - Provolone', 'magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis', 3082.44, 'http://dummyimage.com/415x418.png/dddddd/000000', 65, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Chicken - Tenderloin', 'quam suspendisse potenti nullam porttitor lacus at turpis donec posuere', 419.01, 'http://dummyimage.com/423x421.png/cc0000/ffffff', 78, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Ice Cream Bar - Oreo Sandwich', 'nisi at nibh in hac habitasse platea dictumst', 3071.76, 'http://dummyimage.com/490x385.png/cc0000/ffffff', 59, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Flower - Leather Leaf Fern', 'eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra', 3291.25, 'http://dummyimage.com/425x411.png/cc0000/ffffff', 85, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Soup - Beef Conomme, Dry', 'leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio', 2786.3, 'http://dummyimage.com/400x317.png/5fa2dd/ffffff', 71, 3);
+
+
+
+
+
+============================ PRODUCTOS CATEGORIA 1 ============================
+
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Oil - Coconut', 'ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna', 1654.15, 'http://dummyimage.com/402x375.png/dddddd/000000', 20, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Beef - Tongue, Cooked', 'maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at', 4171.97, 'http://dummyimage.com/396x412.png/5fa2dd/ffffff', 33, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('White Baguette', 'sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis', 4862.27, 'http://dummyimage.com/339x315.png/cc0000/ffffff', 85, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Seabream Whole Farmed', 'ultrices enim lorem ipsum dolor sit amet consectetuer', 2165.02, 'http://dummyimage.com/355x385.png/dddddd/000000', 41, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Tuna - Canned, Flaked, Light', 'nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices', 3748.35, 'http://dummyimage.com/402x317.png/cc0000/ffffff', 78, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Truffle - Peelings', 'ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi', 4774.9, 'http://dummyimage.com/461x421.png/dddddd/000000', 59, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Pork - Bacon Cooked Slcd', 'vestibulum ante ipsum primis in faucibus', 4094.22, 'http://dummyimage.com/496x440.png/5fa2dd/ffffff', 57, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Bread - Raisin Walnut Oval', 'venenatis non sodales sed tincidunt eu felis', 4816.53, 'http://dummyimage.com/303x370.png/5fa2dd/ffffff', 6, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cake - Sheet Strawberry', 'integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis', 1909.51, 'http://dummyimage.com/413x335.png/ff4444/ffffff', 56, 1);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Wine - Saint Emilion Calvet', 'cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum', 3724.24, 'http://dummyimage.com/473x479.png/cc0000/ffffff', 97, 1);
+
+
+============================ PRODUCTOS CATEGORIA 2 ============================
+
+
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Pork - Loin, Boneless', 'quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum', 2582.61, 'http://dummyimage.com/382x417.png/dddddd/000000', 65, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Savory', 'augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at', 1297.96, 'http://dummyimage.com/320x348.png/cc0000/ffffff', 20, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Pasta - Linguini, Dry', 'ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra', 2034.92, 'http://dummyimage.com/459x355.png/ff4444/ffffff', 88, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Veal - Brisket, Provimi,bnls', 'et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec', 3213.52, 'http://dummyimage.com/309x407.png/dddddd/000000', 50, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cornish Hen', 'placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id', 942.29, 'http://dummyimage.com/416x333.png/cc0000/ffffff', 76, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Pasta - Canelloni, Single Serve', 'etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis', 2083.47, 'http://dummyimage.com/422x477.png/ff4444/ffffff', 56, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Vinegar - Rice', 'nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit', 3931.92, 'http://dummyimage.com/327x491.png/cc0000/ffffff', 46, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Curry Powder Madras', 'vitae nisi nam ultrices libero', 2847.16, 'http://dummyimage.com/434x342.png/cc0000/ffffff', 46, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cocoa Powder - Natural', 'morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc', 1863.6, 'http://dummyimage.com/491x397.png/cc0000/ffffff', 53, 2);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Tomato - Peeled Italian Canned', 'neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros', 4093.71, 'http://dummyimage.com/454x446.png/cc0000/ffffff', 90, 2);
+
+
+
+============================ PRODUCTOS CATEGORIA 3 ============================
+
+
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Ice Cream Bar - Drumstick', 'amet sapien dignissim vestibulum vestibulum ante ipsum primis', 1641.44, 'http://dummyimage.com/424x343.png/5fa2dd/ffffff', 80, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cake Circle, Paprus', 'sit amet sem fusce consequat nulla nisl nunc nisl duis', 4138.64, 'http://dummyimage.com/389x454.png/dddddd/000000', 58, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Beans - Kidney, Red Dry', 'ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et', 4299.99, 'http://dummyimage.com/325x365.png/5fa2dd/ffffff', 30, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Beef - Top Sirloin - Aaa', 'rhoncus aliquet pulvinar sed nisl', 2385.38, 'http://dummyimage.com/497x431.png/cc0000/ffffff', 94, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cheese - Taleggio D.o.p.', 'proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus', 2925.63, 'http://dummyimage.com/342x450.png/5fa2dd/ffffff', 33, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Appetizer - Veg Assortment', 'lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in', 1621.72, 'http://dummyimage.com/334x397.png/dddddd/000000', 36, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Crackers - Trio', 'etiam faucibus cursus urna ut tellus nulla ut erat id mauris', 2781.43, 'http://dummyimage.com/484x399.png/5fa2dd/ffffff', 96, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Bread - Rye', 'ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla', 4940.72, 'http://dummyimage.com/459x428.png/dddddd/000000', 82, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Ice Cream Bar - Oreo Cone', 'sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo', 1533.85, 'http://dummyimage.com/405x385.png/dddddd/000000', 15, 3);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Lemonade - Pineapple Passion', 'est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum', 4701.39, 'http://dummyimage.com/334x460.png/ff4444/ffffff', 88, 3);
+
+
+
+============================ PRODUCTOS CATEGORIA 4 ============================
+
+
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Chicken - Wings, Tip Off', 'pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam', 1567.61, 'http://dummyimage.com/331x444.png/cc0000/ffffff', 4, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Venison - Denver Leg Boneless', 'luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh', 4079.33, 'http://dummyimage.com/399x352.png/ff4444/ffffff', 10, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Chips - Assorted', 'in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam', 4976.71, 'http://dummyimage.com/307x463.png/cc0000/ffffff', 34, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Veal - Inside', 'potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit', 102.64, 'http://dummyimage.com/424x358.png/cc0000/ffffff', 56, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Cocoa Feuilletine', 'varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices', 2878.39, 'http://dummyimage.com/475x372.png/ff4444/ffffff', 73, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Lentils - Red, Dry', 'arcu libero rutrum ac lobortis', 2039.52, 'http://dummyimage.com/409x421.png/ff4444/ffffff', 60, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Pie Box - Cello Window 2.5', 'duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec', 4446.92, 'http://dummyimage.com/380x457.png/cc0000/ffffff', 90, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Compound - Mocha', 'justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue', 3577.27, 'http://dummyimage.com/332x432.png/5fa2dd/ffffff', 86, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Gatorade - Fruit Punch', 'velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante', 4575.12, 'http://dummyimage.com/470x349.png/5fa2dd/ffffff', 46, 4);
+insert into producto (nombre, descripcion, precio, imagen, existencia, categoria) values ('Bread - Bagels, Mini', 'aenean sit amet justo morbi', 445.65, 'http://dummyimage.com/337x470.png/dddddd/000000', 20, 4);
